@@ -10,11 +10,30 @@
 
 http-equiv="Content-Security-Policy"
 
-content="default-src 'self';
+content="
+
+default-src 'self';
+
 img-src 'self' data: https:;
-style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
-font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-script-src 'self';">
+
+style-src 'self' 'unsafe-inline'
+https://fonts.googleapis.com
+https://cdnjs.cloudflare.com;
+
+font-src
+https://fonts.gstatic.com
+https://cdnjs.cloudflare.com;
+
+script-src
+'self'
+https://maps.googleapis.com
+https://www.google.com;
+
+frame-src
+https://www.google.com
+https://maps.google.com;
+
+">
 
 <meta
 name="viewport"
