@@ -1,0 +1,4 @@
+Contact: mailto:info@herbolariopalulu.es
+Expires: 2027-05-21T00:00:00.000Z
+Preferred-Languages: es
+Canonical: https://herbolariopalulu.es/.well-known/security.txt
