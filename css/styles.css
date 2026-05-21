@@ -15,22 +15,17 @@ box-sizing:border-box;
 
 body{
 
-font-family:
+font-family:'Inter',sans-serif;
 
-'Inter',
-sans-serif;
+background:#F8F5EF;
 
-background:
+color:#222;
 
-#F8F5EF;
+line-height:1.6;
 
-color:
+padding-top:
 
-#222;
-
-line-height:
-
-1.6;
+140px;
 
 }
 
@@ -171,11 +166,19 @@ box-shadow:
 
 position:
 
-sticky;
+fixed;
 
 top:
 
 0;
+
+left:
+
+0;
+
+width:
+
+100%;
 
 z-index:
 
