@@ -9,7 +9,11 @@ padding:0;
 box-sizing:border-box;
 }
 
-
+:root{
+--color-principal:#45C0F5;
+--color-principal-hover:#2AA8E0;
+--fondo-suave:#EEF8FD;
+}
 
 /* GENERAL */
 
@@ -17,7 +21,7 @@ body{
 
 font-family:'Inter',sans-serif;
 
-background:#F8F5EF;
+background:#F8FCFE;
 
 color:#222;
 
@@ -55,7 +59,7 @@ letter-spacing:
 
 background:
 
-#587E44;
+var(--color-principal)
 
 color:
 
@@ -99,7 +103,7 @@ translateY(-3px);
 
 border:
 
-2px solid #587E44;
+2px solid var(--color-principal);
 
 padding:
 
@@ -115,7 +119,7 @@ none;
 
 color:
 
-#587E44;
+var(--color-principal);
 
 transition:
 
@@ -244,7 +248,7 @@ transition:
 
 color:
 
-#587E44;
+var(--color-principal);
 
 }
 
@@ -254,7 +258,7 @@ color:
 
 background:
 
-#587E44;
+var(--color-principal);
 
 color:
 
@@ -303,9 +307,7 @@ gap:
 
 60px;
 
-background:
-
-#F7F5EF;
+background:var(--fondo-suave);
 
 min-height:
 
@@ -337,7 +339,7 @@ padding:
 
 background:
 
-#EAF0E0;
+rgba(69,192,245,.12);
 
 border-radius:
 
@@ -349,7 +351,7 @@ margin-bottom:
 
 color:
 
-#587E44;
+var(--color-principal);
 
 }
 
@@ -387,7 +389,7 @@ font-weight:
 
 color:
 
-#7A9B58;
+var(--color-principal);
 
 }
 
@@ -881,7 +883,7 @@ display:inline-block;
 
 background:
 
-#EAF0E0;
+rgba(69,192,245,.12);
 
 padding:
 
@@ -897,7 +899,7 @@ margin-bottom:
 
 color:
 
-#587E44;
+var(--color-principal);
 
 }
 
@@ -1253,7 +1255,7 @@ font-size:
 
 color:
 
-#587E44;
+var(--color-principal);
 
 margin-bottom:
 
@@ -1410,7 +1412,7 @@ font-weight:
 
 color:
 
-#7A9B58;
+var(--color-principal);
 
 }
 
@@ -1464,7 +1466,7 @@ font-size:
 
 color:
 
-#587E44;
+var(--color-principal);
 
 margin-bottom:
 
@@ -1489,7 +1491,7 @@ scale(1.15);
 
 color:
 
-#7A9B58;
+var(--color-principal);
 
 }
 
@@ -1633,7 +1635,7 @@ height:
 
 background:
 
-#EAF0E0;
+rgba(69,192,245,.12);
 
 margin:
 
@@ -1669,7 +1671,7 @@ font-size:
 
 color:
 
-#587E44;
+var(--color-principal);
 
 }
 
@@ -1843,7 +1845,7 @@ padding:120px;
 
 text-align:center;
 
-background:#EAF0E0;
+background:var(--fondo-suave);
 
 margin-top:100px;
 
@@ -1989,7 +1991,7 @@ margin:
 
 background:
 
-#F8F5EF;
+#F8FCFE;
 
 padding:
 
@@ -2238,7 +2240,7 @@ margin-top:
 
 background:
 
-#F8F5EF;
+#F8FCFE;
 
 padding:
 
@@ -2294,7 +2296,7 @@ margin-top:
 
 background:
 
-#F8F5EF;
+#F8FCFE;
 
 padding:
 
@@ -2480,7 +2482,7 @@ gap:
 
 background:
 
-#F8F5EF;
+#F8FCFE;
 
 padding:
 
@@ -2546,7 +2548,7 @@ font-weight:
 
 color:
 
-#587E44;
+var(--color-principal);
 
 }
 
