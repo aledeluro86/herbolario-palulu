@@ -2554,27 +2554,15 @@ color:
 /* RESPONSIVE MOVIL */
 /* ========================= */
 
-@media (max-width:900px){
+@media(max-width:900px){
 
 /* NAVBAR */
 
 .navbar{
 
-flex-direction:
-
-column;
-
 padding:
 
-20px;
-
-gap:
-
-20px;
-
-text-align:
-
-center;
+10px 20px;
 
 }
 
@@ -2583,12 +2571,39 @@ center;
 
 height:
 
-90px;
+60px;
 
 }
 
 
-.navbar ul{
+.menu-toggle{
+
+display:block;
+
+font-size:
+
+2rem;
+
+background:none;
+
+border:none;
+
+cursor:pointer;
+
+}
+
+
+
+.nav-links{
+
+display:none;
+
+}
+
+
+.nav-links.active{
+
+display:flex;
 
 flex-direction:
 
@@ -2597,6 +2612,17 @@ column;
 gap:
 
 20px;
+
+margin-top:
+
+20px;
+
+}
+
+
+.btn-whatsapp{
+
+display:none;
 
 }
 
@@ -2612,7 +2638,7 @@ column;
 
 padding:
 
-60px 25px;
+40px 20px;
 
 text-align:
 
@@ -2634,15 +2660,6 @@ font-size:
 }
 
 
-.hero-left p{
-
-font-size:
-
-1.1rem;
-
-}
-
-
 .hero-buttons{
 
 flex-direction:
@@ -2652,53 +2669,60 @@ column;
 }
 
 
-.hero-buttons a{
+.hero-right img{
 
-width:
+max-width:
 
 100%;
+
+height:
+
+auto;
 
 }
 
 
-.hero-info{
 
-justify-content:
+/* DOCTOR */
+
+.doctor-home{
+
+flex-direction:
+
+column;
+
+padding:
+
+40px 20px;
+
+text-align:
 
 center;
 
 }
 
 
-.hero-right img{
+.doctor-home-img img{
 
-height:
+width:
 
-auto;
+100%;
 
 max-width:
 
-100%;
+280px;
 
 }
 
 
 
-/* BENEFICIOS */
+/* PROCESO */
 
-.beneficios{
+.proceso-grid{
 
-flex-direction:
+grid-template-columns:
 
-column;
-
-margin:
-
-20px;
-
-gap:
-
-20px;
+1fr;
 
 }
 
@@ -2740,22 +2764,6 @@ grid-template-columns:
 
 
 
-/* SERVICIOS */
-
-.servicios-grid{
-
-grid-template-columns:
-
-1fr;
-
-padding:
-
-30px;
-
-}
-
-
-
 /* CONTACTO */
 
 .contacto-grid{
@@ -2763,60 +2771,6 @@ padding:
 grid-template-columns:
 
 1fr;
-
-padding:
-
-30px;
-
-}
-
-
-
-/* PROCESO */
-
-.proceso-grid{
-
-grid-template-columns:
-
-1fr;
-
-}
-
-
-
-/* DOCTOR */
-
-.doctor{
-
-flex-direction:
-
-column;
-
-padding:
-
-50px 25px;
-
-text-align:
-
-center;
-
-}
-
-
-.doctor-buttons{
-
-flex-direction:
-
-column;
-
-}
-
-
-.doctor-info h2{
-
-font-size:
-
-2.5rem;
 
 }
 
@@ -2837,162 +2791,11 @@ center;
 }
 
 
-.footer-info p{
-
-justify-content:
-
-center;
-
-}
-
-
-
-/* CTA */
-
-.cta-home{
-
-padding:
-
-60px 25px;
-
-}
-
-
-.cta-home h2{
-
-font-size:
-
-2rem;
-
-}
-
-
-
-/* MAPA */
-
-.mapa{
-
-padding:
-
-30px;
-
-}
-
-
-.mapa iframe{
-
-height:
-
-300px;
-
-}
-
-
-
-/* TITULOS */
-
-h1{
-
-font-size:
-
-3rem !important;
-
-}
-
-
-h2{
-
-font-size:
-
-2.2rem !important;
-
-}
-
-
-h3{
-
-font-size:
-
-1.6rem;
-
-}
-
-
 body{
 
 padding-top:
 
-180px;
-
-}
-
-}
-
-.menu-toggle{
-
-display:none;
-
-background:none;
-
-border:none;
-
-font-size:
-
-2rem;
-
-cursor:pointer;
-
-}
-
-
-
-@media(max-width:900px){
-
-.menu-toggle{
-
-display:block;
-
-}
-
-
-.nav-links{
-
-display:none;
-
-flex-direction:
-
-column;
-
-width:
-
-100%;
-
-margin-top:
-
-20px;
-
-}
-
-
-.nav-links.active{
-
-display:flex;
-
-}
-
-
-.btn-whatsapp{
-
-display:none;
-
-}
-
-
-.navbar{
-
-padding:
-
-20px;
+100px;
 
 }
 
