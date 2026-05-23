@@ -356,7 +356,7 @@ justify-content:space-between;
 
 padding:
 
-80px 5%;
+50px 5%;
 
 gap:
 
@@ -458,7 +458,7 @@ font-size:
 
 margin-bottom:
 
-40px;
+30px;
 
 color:
 
@@ -632,7 +632,7 @@ box-shadow:
 
 padding:
 
-220px 80px 100px;
+30px 80px 30px;
 
 text-align:center;
 
@@ -684,7 +684,7 @@ gap:
 
 padding:
 
-60px;
+30px;
 
 }
 
@@ -698,7 +698,7 @@ white;
 
 padding:
 
-40px;
+30px;
 
 border-radius:
 
@@ -728,7 +728,7 @@ align-items:center;
 
 padding:
 
-100px;
+30px;
 
 }
 
@@ -770,7 +770,7 @@ text-align:center;
 
 padding:
 
-200px 20px;
+30px 20px;
 
 }
 
@@ -800,7 +800,7 @@ margin-bottom:
 
 padding:
 
-220px 80px 100px;
+30px 80px 30px;
 
 text-align:center;
 
@@ -822,7 +822,7 @@ gap:
 
 padding:
 
-80px;
+30px;
 
 }
 
@@ -890,7 +890,7 @@ align-items:center;
 
 padding:
 
-120px 100px;
+30px 30px;
 
 background:
 
@@ -1014,7 +1014,7 @@ gap:
 
 padding:
 
-220px 80px 100px;
+30px 80px 30px;
 
 text-align:center;
 
@@ -1036,7 +1036,7 @@ gap:
 
 padding:
 
-80px;
+30px;
 
 }
 
@@ -1068,7 +1068,7 @@ box-shadow:
 
 padding:
 
-100px;
+30px;
 
 }
 
@@ -1100,7 +1100,7 @@ border-radius:
 
 padding:
 
-100px;
+30px;
 
 text-align:center;
 
@@ -1127,11 +1127,11 @@ white;
 
 padding:
 
-70px 80px 30px;
+30px 80px 30px;
 
 margin-top:
 
-100px;
+30px;
 
 }
 
@@ -1227,7 +1227,7 @@ border-top:
 
 margin-top:
 
-50px;
+30px;
 
 padding-top:
 
@@ -1556,7 +1556,7 @@ var(--color-principal);
 
 padding:
 
-100px 80px;
+30px 80px;
 
 background:
 
@@ -1608,7 +1608,7 @@ auto;
 
 margin-bottom:
 
-70px;
+30px;
 
 font-size:
 
@@ -1764,7 +1764,7 @@ line-height:
 
 .inicio-ayuda{
 
-padding:100px;
+padding:30px;
 
 text-align:center;
 
@@ -1790,7 +1790,7 @@ grid-template-columns:repeat(4,1fr);
 
 gap:30px;
 
-margin-top:60px;
+margin-top:30px;
 
 }
 
@@ -1834,7 +1834,7 @@ gap:
 
 padding:
 
-80px;
+30px;
 
 background:
 
@@ -1890,7 +1890,7 @@ flex:1;
 
 .proceso-home{
 
-padding:100px;
+padding:30px;
 
 text-align:center;
 
@@ -1928,13 +1928,13 @@ box-shadow:0 10px 25px rgba(0,0,0,.05);
 
 .cta-home{
 
-padding:120px;
+padding:30px;
 
 text-align:center;
 
 background:var(--fondo-suave);
 
-margin-top:100px;
+margin-top:30px;
 
 }
 
@@ -1952,7 +1952,7 @@ margin-bottom:25px;
 
 .cta-home p{
 
-margin-bottom:40px;
+margin-bottom:30px;
 
 font-size:1.2rem;
 
@@ -2014,7 +2014,7 @@ box-shadow:
 
 padding:
 
-120px 100px;
+30px 100px;
 
 background:
 
@@ -2132,7 +2132,7 @@ font-size:
 
 padding:
 
-120px 100px;
+30px 100px;
 
 text-align:
 
@@ -2251,7 +2251,7 @@ font-size:
 
 padding:
 
-100px;
+30px;
 
 text-align:
 
@@ -2303,7 +2303,7 @@ border-radius:
 
 padding:
 
-80px 100px;
+30px 100px;
 
 text-align:
 
@@ -2461,7 +2461,7 @@ font-size:
 
 padding:
 
-120px 100px;
+30px 100px;
 
 text-align:
 
@@ -2497,7 +2497,7 @@ color:
 
 margin-bottom:
 
-60px;
+30px;
 
 font-size:
 
@@ -2844,7 +2844,7 @@ body{
 
 padding-top:
 
-100px;
+30px;
 
 }
 
@@ -3285,7 +3285,7 @@ align-items:center;
 
 gap:60px;
 
-padding:80px 10%;
+padding:30px 10%;
 
 background:#f9f7f2;
 
@@ -3579,7 +3579,7 @@ margin:auto;
 
 padding:
 
-180px 20px 100px;
+30px 20px 30px;
 
 line-height:
 
@@ -3596,7 +3596,7 @@ font-size:
 
 margin-bottom:
 
-40px;
+30px;
 
 }
 
