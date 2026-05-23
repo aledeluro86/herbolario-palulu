@@ -3475,3 +3475,15 @@ display:block;
 }
 
 }
+
+@media(max-width:768px){
+
+.logo img{
+
+max-width:140px;
+
+height:auto;
+
+}
+
+}
