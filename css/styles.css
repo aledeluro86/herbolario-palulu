@@ -3538,3 +3538,82 @@ height:auto;
 }
 
 }
+
+/* POLITICAS Y AVISOS LEGALES */
+
+.footer-legal{
+
+margin-top:30px;
+
+text-align:center;
+
+font-size:0.95rem;
+
+}
+
+
+.footer-legal a{
+
+color:#ddd;
+
+text-decoration:none;
+
+margin:0 10px;
+
+transition:.3s;
+
+}
+
+
+.footer-legal a:hover{
+
+color:#A7D08C;
+
+}
+
+.legal{
+
+max-width:900px;
+
+margin:auto;
+
+padding:
+
+180px 20px 100px;
+
+line-height:
+
+2;
+
+}
+
+
+.legal h1{
+
+font-size:
+
+3rem;
+
+margin-bottom:
+
+40px;
+
+}
+
+
+.legal h2{
+
+margin:
+
+40px 0 20px;
+
+}
+
+
+.legal ul{
+
+padding-left:
+
+20px;
+
+}
