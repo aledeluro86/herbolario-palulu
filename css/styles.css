@@ -61,39 +61,47 @@ letter-spacing:
 
 .btn{
 
-background:
+background:var(--color-principal);
 
-var(--color-principal)
+color:white;
 
-color:
+padding:16px 35px;
 
-white;
+border-radius:12px;
 
-padding:
+text-decoration:none;
 
-18px 35px;
+display:inline-flex;
 
-border-radius:
+align-items:center;
 
-12px;
+justify-content:center;
 
-text-decoration:
+gap:8px;
 
-none;
+font-weight:600;
 
-transition:
+transition:0.3s;
 
-0.3s;
+box-shadow:
+0 10px 25px rgba(
+69,
+192,
+245,
+0.25);
 
-display:
+min-width:200px;
 
-inline-block;
+text-align:center;
 
 }
 
 
-
 .btn:hover{
+
+background:
+
+var(--color-principal-hover);
 
 transform:
 
@@ -105,39 +113,50 @@ translateY(-3px);
 
 .btn-secondary{
 
+background:white;
+
 border:
 
 2px solid var(--color-principal);
 
 padding:
 
-18px 35px;
+16px 35px;
 
 border-radius:
 
 12px;
 
-text-decoration:
-
-none;
+text-decoration:none;
 
 color:
 
 var(--color-principal);
 
+display:inline-flex;
+
+justify-content:center;
+
+align-items:center;
+
+min-width:200px;
+
 transition:
 
 0.3s;
 
-display:
-
-inline-block;
+font-weight:600;
 
 }
 
 
-
 .btn-secondary:hover{
+
+background:
+
+var(--color-principal);
+
+color:white;
 
 transform:
 
@@ -145,6 +164,38 @@ translateY(-3px);
 
 }
 
+.hero-buttons,
+.doctor-buttons,
+.equipo-btn,
+.cta-home{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+@media(max-width:768px){
+
+.btn,
+.btn-secondary,
+.btn-equipo{
+
+width:100%;
+
+max-width:280px;
+
+margin:auto;
+
+}
+
+}
 
 
 /* NAVBAR */
